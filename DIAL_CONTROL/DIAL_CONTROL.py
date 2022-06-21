@@ -1,15 +1,3 @@
-import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox
-import csv
-import os
-import matplotlib.pyplot as plt
-import time
-import QuTAG
-import numpy as np
-from toptica.lasersdk.client import Client, NetworkConnection
-
-
 """
 Laser and TCSPC control for DIAL measurments
 Presents a basic interface for setting up devices and perforiming a dial measurment. 
@@ -23,7 +11,23 @@ TO DO:
     HydraHarp support
     Timeres support
 
+Ewan MacKenzie - 2022
+
 """
+
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox
+import csv
+import os
+import matplotlib.pyplot as plt
+import time
+import QuTAG
+import numpy as np
+from toptica.lasersdk.client import Client, NetworkConnection
+
+
+
 
 
 file_path = os.path.dirname(os.path.abspath(__file__))

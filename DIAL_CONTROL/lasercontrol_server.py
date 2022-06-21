@@ -1,3 +1,11 @@
+"""
+Some websocket implementation for controlling laser that on a different network
+Dont think this was ever used.
+
+Ewan MacKenzie - 2022
+
+"""
+
 import asyncio
 import websockets
 from toptica.lasersdk.client import Client, NetworkConnection

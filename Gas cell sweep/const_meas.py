@@ -1,3 +1,16 @@
+'''
+Gas concentration measurment script
+Tunes laser between two wavelengths, gets count diffeence and plots
+Also saves data on the go
+Can choose between temperature tuning or current tuning 
+
+To do:
+Unique filenaming on each run - currently continues writing to file
+Tidy
+
+Ewan MacKenzie 2021
+'''
+
 from toptica.lasersdk.client import Client, NetworkConnection
 import numpy as np
 import csv

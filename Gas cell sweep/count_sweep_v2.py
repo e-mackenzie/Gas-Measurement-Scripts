@@ -1,3 +1,10 @@
+'''
+A lazy variation of count_sweep.py to sweep current instead of temperature.
+ould recommend using count_sweep.
+
+Ewan MacKenzie 2021
+'''
+
 from toptica.lasersdk.client import Client, NetworkConnection
 import numpy as np
 import csv

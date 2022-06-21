@@ -1,3 +1,10 @@
+'''
+Sweeps laser wavelength (by temperature) and saves data to a file.
+This script is pretty messy with some other functionality that was never used but hasnt been removed.
+
+Ewan MacKenzie 2021
+'''
+
 from toptica.lasersdk.client import Client, NetworkConnection
 import numpy as np
 import csv
